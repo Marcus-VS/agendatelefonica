@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap');
+
+/* Formatação global do site */
+html{
+  padding: 0;
+  margin: 0;
+  width: auto;
+
+  background-color: rgba(33, 34, 44, 100%);
+}
+
+/* Formatação do Header, Menu do site */
+header, footer {
+  padding: 1.0rem;
+
+  background-color: rgba(40, 42, 54, 100%);
+}
+
+header spam {
+  position: relative;
+  left: 5%;
+
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5rem;
+
+  color: white;
+}
+
+input.pesquisa{
+  position: fixed;
+  right: 5%;
+  padding: 0.3rem 0.3rem 0.3rem 0.6rem;
+
+  font-size: 1.0rem;
+
+  border-radius: 15px;
+
+}
+
+/* Formatação do Body, corpo do site */
+body, div{
+  font-family: 'Inconsolata', monospace;
+
+  color: white;
+}
+
+
+/* Formatação do footer, Rodapé do site */
+footer{
+  position: relative;
+  display: block;
+  bottom: 0;
+  left: 0;
+  color: rgba(98, 114, 164, 100%);
+  justify-content: end;
+}
+
+footer spam {
+  display: block;
+  bottom: 0;
+
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Inconsolata', monospace;
+}

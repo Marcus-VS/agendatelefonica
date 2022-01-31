@@ -1,0 +1,27 @@
+
+table.table{
+  margin-bottom: 0;
+}
+
+thead, tr {
+  color: white;
+  text-align: center;
+}
+
+td {
+  color: white;
+}
+
+button {
+  height: 2.3rem;
+  width: 6.8rem;
+}
+
+div.btn-group{
+  display: block;
+  position: relative;
+  right: 1.3rem;
+  text-align: end;
+  margin-top: 0.3rem;
+  margin-bottom: 1.3rem;
+}
